@@ -64,7 +64,7 @@ class ToastUIEditorViewer {
         referenceDefinition: false,
         customHTMLSanitizer: null,
         frontMatter: false,
-        usageStatistics: true,
+        usageStatistics: false,
         theme: 'light',
       },
       options

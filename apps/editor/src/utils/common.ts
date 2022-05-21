@@ -5,7 +5,6 @@ import forEachOwnProperties from 'tui-code-snippet/collection/forEachOwnProperti
 
 import { LinkAttributeNames, LinkAttributes } from '@t/editor';
 
-export const isMac = /Mac/.test(navigator.platform);
 const reSpaceMoreThanOne = /[\u0020]+/g;
 const reEscapeChars = /[>(){}[\]+-.!#|]/g;
 const reEscapeHTML = /<([a-zA-Z_][a-zA-Z0-9\-._]*)(\s|[^\\>])*\/?>|<(\/)([a-zA-Z_][a-zA-Z0-9\-._]*)\s*\/?>|<!--[^-]+-->|<([a-zA-Z_][a-zA-Z0-9\-.:/]*)>/g;

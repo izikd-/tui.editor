@@ -133,7 +133,7 @@ class ToastUIEditorCore {
         minHeight: '200px',
         language: 'en-US',
         useCommandShortcut: true,
-        usageStatistics: true,
+        usageStatistics: false,
         toolbarItems: [
           ['heading', 'bold', 'italic', 'strike'],
           ['hr', 'quote'],

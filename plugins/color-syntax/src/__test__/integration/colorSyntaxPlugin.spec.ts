@@ -64,7 +64,7 @@ describe('colorSyntax', () => {
 
       expect(colorPicker.create).toHaveBeenCalledWith(
         expect.objectContaining({
-          usageStatistics: true,
+          usageStatistics: false,
         })
       );
     });
